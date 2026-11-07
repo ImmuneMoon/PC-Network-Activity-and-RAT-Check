@@ -3,7 +3,6 @@
 ![Windows 10 | 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows&logoColor=white)
 ![Type: security guide](https://img.shields.io/badge/Type-security%20guide-d73a49)
 ![Tools: ipconfig, netstat, TCPView](https://img.shields.io/badge/Tools-ipconfig%20%7C%20netstat%20%7C%20TCPView-5c2d91)
-![Checked November 2026](https://img.shields.io/badge/Checked-Nov%202026-2ea44f)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](LICENSE)
 
 **📄 [Download the PDF](PC-Network-Activity-and-RAT-Check.pdf)**
