@@ -30,6 +30,7 @@ This guide works alongside:
 * [Windows Malware Removal Guide](https://github.com/ImmuneMoon/Windows-Malware-Removal-Guide) - What to do if you find something.
 * [DNS Rebinding and the NVIDIA App's Local MCP Server](https://github.com/ImmuneMoon/NVIDIA-App-MCP-DNS-Rebinding-Writeup) - Why local services listening on `127.0.0.1` can still matter.
 * [Windows 10 Community Support Guide](https://github.com/ImmuneMoon/Windows-10-Community-Support-Guide#autoruns) - How to use Autoruns to see what starts with Windows.
+* [IT Support Careers and Certifications](https://github.com/ImmuneMoon/IT-Support-Careers-and-Certifications#112-practice-with-this-sites-guides) - These checks are good hands-on practice for CompTIA A+ and security work.
 
 ---
 
