@@ -35,9 +35,7 @@ This guide works alongside:
 
 <!-- guide:start -->
 
-*Checked against Microsoft's documentation in November 2026. Each section says whether it comes from the videos or from added research.*
-
-**Sources:** [Your computer is logging this!](https://www.youtube.com/watch?v=IX4q8dX3jbU) and [How to know if your PC is hacked? Modern RATs](https://www.youtube.com/watch?v=B8ayJPq26iU), both by The PC Security Channel. Sections marked **Added** come from other research, listed in Sources.
+**Sources:** [Your computer is logging this!](https://www.youtube.com/watch?v=IX4q8dX3jbU) and [How to know if your PC is hacked? Modern RATs](https://www.youtube.com/watch?v=B8ayJPq26iU), both by The PC Security Channel. Other sources are listed at the end.
 
 ## The Short Version
 
@@ -109,8 +107,6 @@ That's the useful part: the list shows which software is quietly using the inter
 
 ### 2.3 What the cache can't tell you
 
-*Added research.*
-
 - **It's a snapshot.** Entries expire after a short time, so the cache only shows recent lookups.
 - **It doesn't say which program made a lookup.** Section 3 covers that.
 - **It includes your hosts file.** Microsoft notes the cache also holds entries loaded from the local `hosts` file, so not every line is a real lookup.
@@ -123,8 +119,6 @@ The video shows that `ipconfig /flushdns` empties the cache. Microsoft describes
 ---
 
 ## 3. See Live Connections and Which Program Owns Them
-
-*TCPView is from the "Modern RATs" video. The other methods are added research.*
 
 The DNS cache shows names. These tools show **actual connections**, and the program behind each one.
 
@@ -205,8 +199,6 @@ This is called **living off the land**: attackers use Windows' own tools so noth
 
 ### 5.1 See what a program is actually running
 
-*Added research.*
-
 Task Manager can show each program's full command:
 
 1. Open Task Manager and go to the **Details** tab.
@@ -216,8 +208,6 @@ Task Manager can show each program's full command:
 A PowerShell process with `-EncodedCommand` (or `-enc`, `-e`) followed by a long string deserves a closer look. Microsoft documents that this option takes a Base64 string of **UTF-16LE** text.
 
 ### 5.2 Decode it safely
-
-*Added research.*
 
 The video pastes the string into an online decoder. You can decode it in PowerShell instead, without running it:
 
@@ -231,8 +221,6 @@ This only turns the string back into readable text. It never runs the command. *
 ---
 
 ## 6. Signs Worth a Closer Look
-
-*Added research, based on the videos' examples.*
 
 | What you see | Why it matters | What to do |
 |---|---|---|
@@ -294,8 +282,6 @@ Smart App Control blocks apps it believes are malicious or untrusted, including 
 
 ## 8. If You Find Something
 
-*Added research.*
-
 1. **Disconnect from the internet.** That cuts the attacker off and stops more data leaving.
 2. **Don't wipe the PC yet,** and don't flush the DNS cache. Note down what you found.
 3. **Follow the [Windows Malware Removal Guide](https://github.com/ImmuneMoon/Windows-Malware-Removal-Guide).**
@@ -304,8 +290,6 @@ Smart App Control blocks apps it believes are malicious or untrusted, including 
 ---
 
 ## 9. Sources
-
-Checked in November 2026.
 
 **Videos (The PC Security Channel)**
 - [Your computer is logging this!](https://www.youtube.com/watch?v=IX4q8dX3jbU)
